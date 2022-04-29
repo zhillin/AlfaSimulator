@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Styrenea';
+    src: url('../fonts/Styrene-A-LC-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Styrenea';
+    src: url('../fonts/Styrene-A-LC-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Styrenea';
+    src: url('../fonts/Styrene-A-LC-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Styreneb';
+    src: url('../fonts/Styrene-B-LC-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Styreneb';
+    src: url('../fonts/Styrene-B-LC-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }

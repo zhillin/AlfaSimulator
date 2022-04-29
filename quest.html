@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Симулятор мошенника</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css?ver=18" rel="stylesheet" type="text/css">
+  <link href="css/alfaba.css?ver=18" rel="stylesheet" type="text/css">
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body page="quest" class="body_qst">
+  <div class="top">
+    <div class="cont">
+      <div class="top_box">
+        <a href="/" class="main_logo_link w-inline-block">
+          <img src="images/logo.svg" class="main_logo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="quest">
+    <div stage="view" class="qstage">
+      <div class="box">
+        <div class="cont qcont">
+          <div class="qstage_bl">
+            <div class="qtime">
+              <p class="qtime_num">00:<span class="qtime_num_count">15</span></p>
+              <p class="qtime_txt">Следующий вопрос через 00:<span class="qtime_txt_count">10</span></p>
+            </div>
+            <div class="qtext">
+              <p class="qtext_itm">Вам звонят из банка, предупреждают о похищении денег и просят срочно перевести их на другой счёт. Как поступите?</p>
+              <p class="qtext_itm qtext_itm_error">Просто повесьте трубку. Банк никогда не просит переводить деньги на какие-то счета и карты.</p>
+              <p class="qtext_itm qtext_itm_suc">Верно, просто повесьте трубку. Банк никогда не просит переводить деньги на какие-то счета и карты.</p>
+            </div>
+          </div>
+          <div class="qel">
+            <p result="0" class="qitm">Соглашусь и переведу деньги</p>
+            <p result="1" class="qitm">Повешу трубку</p>
+            <p result="0" class="qitm">Начну паниковать</p>
+            <p result="0" class="qitm">Позвоню в полицию</p>
+          </div>
+          <div class="qnav">
+            <div state="active" class="qnav_itm"></div>
+            <div class="qnav_itm"></div>
+            <div class="qnav_itm"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qstage">
+      <div class="box">
+        <div class="cont qcont">
+          <div class="qstage_bl">
+            <div class="qtime">
+              <p class="qtime_num">00:<span class="qtime_num_count">15</span></p>
+              <p class="qtime_txt">Следующий вопрос через 00:<span class="qtime_txt_count">10</span></p>
+            </div>
+            <div class="qtext">
+              <p class="qtext_itm">Вам пришло письмо со справкой, которую вы не запрашивали. Внешне кажется, что письмо от банка. Как поступите?</p>
+              <p class="qtext_itm qtext_itm_error">Не открывайте файл — банк присылает документы только по запросу. Мошенники хорошо подделывают письма, а антивирусы не всегда спасают.</p>
+              <p class="qtext_itm qtext_itm_suc">Верно, банк присылает документы только по запросу. Мошенники хорошо подделывают письма, а антивирусы не всегда спасают.</p>
+            </div>
+          </div>
+          <div class="qel">
+            <p result="0" class="qitm">Открою документ</p>
+            <p result="0" class="qitm">Проверю файл на вирусы</p>
+            <p result="1" class="qitm">Сразу удалю письмо</p>
+            <p result="0" class="qitm">Перешлю другу</p>
+          </div>
+          <div class="qnav">
+            <div state="active" class="qnav_itm"></div>
+            <div state="active" class="qnav_itm"></div>
+            <div class="qnav_itm"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qstage">
+      <div class="box">
+        <div class="cont qcont">
+          <div class="qstage_bl">
+            <div class="qtime">
+              <p class="qtime_num">00:<span class="qtime_num_count">15</span></p>
+              <p class="qtime_txt">Завершение демоверсии игры через 00:<span class="qtime_txt_count">10</span></p>
+            </div>
+            <div class="qtext">
+              <p class="qtext_itm">Вам пришло письмо с предложением снизить ставку по кредиту. Для этого нужно зайти на сайт и ввести логин и пароль от личного кабинета. Как поступите?</p>
+              <p class="qtext_itm qtext_itm_error">Всегда проверяйте домен сайта, прежде чем оставлять свои данные. Не отключайте вход по одноразовому паролю в настройках безопасности интернет-банка.</p>
+              <p class="qtext_itm qtext_itm_suc">Да. Всегда проверяйте домен сайта, прежде чем оставлять свои данные. Не отключайте вход по одноразовому паролю в настройках безопасности интернет-банка.</p>
+            </div>
+          </div>
+          <div class="qel">
+            <p result="0" class="qitm">Оставлю логин и пароль</p>
+            <p result="0" class="qitm">Позвоню по номеру на сайте</p>
+            <p result="1" class="qitm">Проигнорирую письмо</p>
+            <p result="0" class="qitm">Зайду под чужим логином</p>
+          </div>
+          <div class="qnav">
+            <div state="active" class="qnav_itm"></div>
+            <div state="active" class="qnav_itm"></div>
+            <div state="active" class="qnav_itm"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qresult">
+      <div class="box">
+        <div class="qresult_dsk">
+          <div class="cont">
+            <div class="qresult_vert">
+              <div class="qresult_top">
+                <p class="qresult_num"><span class="qresult_num_vl">2</span>/3<br></p>
+                <p class="qresult_head">Проверьте себя в полной версии игры.<br><br>Станьте клиентом Альфа-Банка, скачайте приложение и зайдите в «Симулятор мошенника» на главной.<br></p>
+                <p class="qresult_head qresult_head_mob">Проверьте себя в полной версии игры.<br>‍<br>Если вы клиент Альфа-Банка, зайдите в приложение — игра уже на главной.<br></p>
+              </div>
+              <div class="qresult_btn">
+                <a href="https://alfabank.ru/app" target="_blank" class="qresult_btn_link w-inline-block">
+                  <img src="images/qresult_btn_icon_re.svg" class="qresult_btn_icon">
+                </a>
+              </div>
+              <div class="q_mob_btn">
+                <a href="https://apps.apple.com/RU/app/id353127685?mt=8" target="_blank" class="q_mob_btn_link w-inline-block">
+                  <img src="images/q_mob_ios.svg" class="q_mob_btn_icon">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=ru.alfabank.mobile.android&amp;referrer=af_tranid%3DAURrUtome8GWLW_4Ra18BA%26pid%3DAM%20web%20page%26c%3Dstore%20buttons" target="_blank" class="q_mob_btn_link w-inline-block">
+                  <img src="images/q_mob_android.svg" class="q_mob_btn_icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="qresult_mob">
+          <div class="cont">
+            <p class="q_mob_head">Проверьте себя в полной версии игры</p>
+            <p class="q_mob_desc">Станьте клиентом<br>Альфа-Банка, скачайте приложение и зайдите в «Симулятор мошенника» на главной.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rotate">
+    <img src="images/refresh.svg" class="rotate_img">
+  </div>
+  <script src="js/gsap.min.js" type="text/javascript"></script>
+  <script src="js/wheel-indicator.js" type="text/javascript"></script>
+  <script src="js/swiper-bundle.min.js" type="text/javascript"></script>
+  <script src="js/script.js?ver=38" type="text/javascript"></script>
+  <link href="css/style.css?ver=38" type="text/css" rel="stylesheet">
+</body>
+</html>
